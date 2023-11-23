@@ -1,4 +1,4 @@
-# The Locality and Symmetry of Positional Encodings
+# The Locality and Symmetry of Positional Encodings (EMNLP Findings 2023)
 This repository provides a PyTorch implementation of the locality and symmetry metrics for positional encodings.
 
 + [arXiv Paper](https://arxiv.org/pdf/2310.12864.pdf)
@@ -49,7 +49,7 @@ def cal_matrix_symmetry(M) -> float:
 We provide the following [experiments](experiments) to run BERT experiments.
 
 ## Citation
-Lihu Chen, Gaël Varoquaux1, Fabian M. Suchanek. "The Locality and Symmetry of Positional Encodings". In EMNLP Findings 2023.
+Lihu Chen, Gaël Varoquaux, Fabian M. Suchanek. "The Locality and Symmetry of Positional Encodings". In EMNLP Findings 2023.
 ```
 @article{chen2023locality,
   title={The Locality and Symmetry of Positional Encodings},
